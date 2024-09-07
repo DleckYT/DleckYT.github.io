@@ -1,7 +1,8 @@
 h1,
 p,
 h2,
-h3 {
+h3,
+li {
   color: aliceblue;
   text-align: center;
 }
@@ -13,6 +14,9 @@ h1.home {
   font-style: normal;
   font-size: 60px;
   color: white;
+}
+p.tech {
+  font-size: 20px;
 }
 
 header {
@@ -27,8 +31,8 @@ h1.round {
   padding: 10px;
   margin: 30px;
   width: 20cm;
-  justify-content: center;
-  display: flex;
+  display: block;
+  margin: auto;
 }
 
 body {
@@ -42,4 +46,20 @@ body {
 
 p.home {
   font-size: 30px;
+}
+
+img {
+  padding: 0;
+  margin-top: 10px;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+}
+
+/* ID selector for unique elements */
+#main-header {
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
