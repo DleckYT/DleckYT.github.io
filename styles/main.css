@@ -333,3 +333,31 @@ footer {
 .btn:hover {
   background: #ff4757;
 }
+
+/* Project Image */
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Project Links */
+.project-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.project-links a {
+  color: #fff;
+  padding: 0.5rem 1rem;
+  background-color: #6a11cb;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.project-links a:hover {
+  background: #2575fc;
+}
