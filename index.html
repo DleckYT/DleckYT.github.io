@@ -4,14 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lance's Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
+    <link href="/styles/main.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <!-- Header Section -->
+    <!-- Header -->
     <header>
       <nav>
-        <h1>Lance's Portfolio</h1>
-        <ul>
+        <div class="logo">Lance</div>
+        <ul class="nav-links">
           <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -21,63 +25,79 @@
 
     <!-- Hero Section -->
     <section class="hero">
-      <h2>Welcome to My Portfolio</h2>
-      <p>Full Stack Web Developer | Agile Facilitator | Content Creator</p>
-      <a href="#projects" class="btn">View Projects</a>
+      <div class="hero-content">
+        <h1>Hi, I'm Lance</h1>
+        <p>Full Stack Web Developer | Software Developer</p>
+        <a href="#projects" class="btn">Explore My Work</a>
+      </div>
     </section>
 
     <!-- About Section -->
-    <section id="about">
-      <h2>About Me</h2>
-      <p>
-        Hi, I'm Lance! I recently completed a 17-week Full Stack Web Development
-        course at Dev Academy, where I honed my skills in coding, teamwork, and
-        Agile practices. My long-term goal is to become a content creator on
-        YouTube, blending creativity with technology.
-      </p>
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          I'm a Full Stack Web Developer with a passion for building clean,
+          efficient, and scalable solutions. After completing an intensive
+          17-week Full Stack Web Development course at Dev Academy, I’ve
+          developed skills in teamwork, Agile facilitation, and solving coding
+          challenges.
+        </p>
+      </div>
     </section>
 
     <!-- Projects Section -->
-    <section id="projects">
-      <h2>Projects</h2>
-      <div class="project-card">
-        <h3>Project 1: Tic Tac Toe</h3>
-        <p>
-          A simple game of Tic Tac Toe created with HTML, CSS, and JavaScript.
-        </p>
-        <a href="https://github.com/yourusername/tic-tac-toe" target="_blank"
-          >View Code</a
-        >
-      </div>
-      <div class="project-card">
-        <h3>Project 2: Group Project</h3>
-        <p>A collaborative full-stack project completed during Dev Academy.</p>
-        <a href="https://github.com/yourusername/group-project" target="_blank"
-          >View Code</a
-        >
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="project-grid">
+          <div class="project-card">
+            <h3>Tic Tac Toe</h3>
+            <p>A simple game built with HTML, CSS, and JavaScript.</p>
+            <a
+              href="https://github.com/DleckYT/tic-tac-toe2.git"
+              target="_blank"
+              >View Code</a
+            >
+          </div>
+          <div class="project-card">
+            <h3>Group Project</h3>
+            <p>
+              Collaborative full-stack web application using Agile practices.
+            </p>
+            <a href="https://github.com/DleckYT/budgeting-app" target="_blank"
+              >View Code</a
+            >
+          </div>
+        </div>
       </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Feel free to reach out via email or follow me on GitHub!</p>
-      <ul>
-        <li>
-          Email: <a href="mailto:yourname@email.com">yourname@email.com</a>
-        </li>
-        <li>
-          GitHub:
-          <a href="https://github.com/yourusername" target="_blank"
-            >github.com/yourusername</a
-          >
-        </li>
-      </ul>
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Feel free to connect with me!</p>
+        <ul>
+          <li>
+            Email:
+            <a href="mailto:yourname@email.com"
+              >LanceGodinezOliveros@gmail.com</a
+            >
+          </li>
+          <li>
+            GitHub:
+            <a href="https://github.com/DleckYT" target="_blank"
+              >github.com/DleckYT</a
+            >
+          </li>
+        </ul>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer>
-      <p>&copy; 2024 Lance. All Rights Reserved.</p>
+      <p>&copy; 2024 Lance | All Rights Reserved</p>
     </footer>
   </body>
 </html>
