@@ -9,12 +9,12 @@ body {
   font-family: 'Poppins', sans-serif;
   line-height: 1.6;
   color: #333;
-  background-color: #f4f4f9;
+  background-color: #f4f4f9; /* Light gray background similar to the home page */
 }
 
 /* Header */
 header {
-  background-color: #333;
+  background-color: #333; /* Dark header background */
   color: #fff;
   padding: 1rem 2rem;
   display: flex;
@@ -29,7 +29,11 @@ header {
 /* Hero Section */
 .hero {
   height: 50vh;
-  background: linear-gradient(to right, #6a11cb, #2575fc);
+  background: linear-gradient(
+    to right,
+    #6a11cb,
+    #2575fc
+  ); /* Gradient similar to home page */
   color: #fff;
   display: flex;
   align-items: center;
@@ -94,7 +98,7 @@ header {
 footer {
   text-align: center;
   padding: 1rem 0;
-  background-color: #333;
+  background-color: #333; /* Dark footer background */
   color: #fff;
 }
 
@@ -106,7 +110,7 @@ footer {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.9); /* Dark background for modal */
   z-index: 1000;
   align-items: center;
   justify-content: center;
@@ -139,7 +143,7 @@ footer {
 }
 
 .close:hover {
-  color: #ff6b6b;
+  color: #ff6b6b; /* Light red for hover effect */
 }
 
 /* Style for Gallery Titles */

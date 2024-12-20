@@ -1,100 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Drone Portfolio</title>
-  <link rel="stylesheet" href="/styles/drone.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-</head>
-<body>
-  <!-- Header -->
-  <header>
-    <nav>
-      <div class="logo">Drone Portfolio</div>
-    </nav>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drone Portfolio</title>
+    <link rel="stylesheet" href="/styles/drone.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav>
+        <div class="logo">Lance's Portfolio</div>
+      </nav>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Drone Portfolio</h1>
+        <p>
+          Showcasing stunning aerial photography and videos captured with
+          precision and creativity.
+        </p>
+      </div>
+    </section>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="hero-content">
-      <h1>Drone Portfolio</h1>
-      <p>Showcasing stunning aerial photography and videos captured with precision and creativity.</p>
-    </div>
-  </section>
-
- 
-
-  <section class="gallery section">
-    <div class="container">
-      <h2>Gallery</h2>
-      <div class="gallery-grid">
-        <!-- Gallery Items with Titles -->
-        <div class="gallery-item" onclick="openModal('WELLINGTONVIBE2_1.1.2.png', 'Lower Hutt', 'New Zealand')">
-          <img src="WELLINGTONVIBE2_1.1.2.png" alt="Drone Photo 1">
-          <div class="gallery-title">Lower Hutt</div>
-        </div>
-        <div class="gallery-item" onclick="openModal('SCHOOLCOOL_1.5.1.png', 'Upper Hutt', 'Aerial Shot', 'New Zealand')">
-          <img src="SCHOOLCOOL_1.5.1.png" alt="Drone Photo 2">
-          <div class="gallery-title">Upper Hutt</div>
-        </div>
-        <div class="gallery-item" onclick="openModal('images/drone-photo3.jpg', 'City Skyline', 'USA')">
-          <img src="images/drone-photo3.jpg" alt="Drone Photo 3">
-          <div class="gallery-title">City Skyline</div>
-        </div>
-        <div class="gallery-item" onclick="openModal('images/drone-photo4.jpg', 'Beach View', 'Australia')">
-          <img src="images/drone-photo4.jpg" alt="Drone Photo 4">
-          <div class="gallery-title">Beach View</div>
+    <section class="gallery section">
+      <div class="container">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+          <!-- Gallery Items with Titles -->
+          <div
+            class="gallery-item"
+            onclick="openModal('WELLINGTONVIBE2_1.1.2.png', 'Lower Hutt', 'New Zealand')"
+          >
+            <img src="WELLINGTONVIBE2_1.1.2.png" alt="Drone Photo 1" />
+            <div class="gallery-title">Lower Hutt</div>
+          </div>
+          <div
+            class="gallery-item"
+            onclick="openModal('SCHOOLCOOL_1.5.1.png', 'Upper Hutt', 'Aerial Shot', 'New Zealand')"
+          >
+            <img src="SCHOOLCOOL_1.5.1.png" alt="Drone Photo 2" />
+            <div class="gallery-title">Upper Hutt</div>
+          </div>
+          <div
+            class="gallery-item"
+            onclick="openModal('powerplant_1.4.1.png', 'Hutt Valley', 'New Zealand')"
+          >
+            <img src="powerplant_1.4.1.png" alt="Drone Photo 3" />
+            <div class="gallery-title">Realistic Color Grading</div>
+          </div>
+          <div
+            class="gallery-item"
+            onclick="openModal('DJI_0078.JPG', 'Wellington', 'New Zealand')"
+          >
+            <img src="DJI_0078.JPG" alt="Drone Photo 4" />
+            <div class="gallery-title">Wellington</div>
+          </div>
         </div>
       </div>
+    </section>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <img id="modal-image" class="modal-image" alt="Full Screen Image" />
+      <div id="modal-details" class="modal-details"></div>
     </div>
-  </section>
-  
-  
-  <!-- Modal -->
-  <div id="modal" class="modal">
-    <span class="close" onclick="closeModal()">&times;</span>
-    <img id="modal-image" class="modal-image" alt="Full Screen Image">
-    <div id="modal-details" class="modal-details"></div>
-  </div>
-  
 
-  <!-- Contact Section -->
-  <section class="contact section">
-    <div class="container">
-      <h2>Contact</h2>
-      <p>Interested in collaborating or purchasing drone footage? Get in touch!</p>
-      <ul>
-        <li>Email: <a href="mailto:yourname@email.com">LanceGodinezOliveros@gmail.com/a></li>
-        <li>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></li>
-      </ul>
-    </div>
-  </section>
+    <!-- Contact Section -->
+    <section class="contact section">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>
+          Interested in getting your own Drone photographer or purchasing drone
+          footage? Get in touch!
+        </p>
+        <ul>
+          <li>
+            Email:
+            <a href="mailto:yourname@email.com"
+              >LanceGodinezOliveros@gmail.com</a
+            >
+          </li>
+          <li>
+            Phone Number:
+            <a href="tel:+64226846486">+64226846486</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Lance | Drone Portfolio</p>
+    </footer>
+    <script>
+      function openModal(imageSrc, title, location) {
+        const modal = document.getElementById('modal')
+        const modalImage = document.getElementById('modal-image')
+        const modalDetails = document.getElementById('modal-details')
 
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2024 Lance | Drone Portfolio</p>
-  </footer>
-  <script>
-    function openModal(imageSrc, title, location) {
-      const modal = document.getElementById('modal');
-      const modalImage = document.getElementById('modal-image');
-      const modalDetails = document.getElementById('modal-details');
-  
-      modal.style.display = 'flex'; // Show modal
-      modalImage.src = imageSrc; // Set image
-      modalDetails.innerHTML = `<strong>${title}</strong><br>${location}`; // Set details
-    }
-  
-    function closeModal() {
-      const modal = document.getElementById('modal');
-      modal.style.display = 'none'; // Hide modal
-    }
-  </script>
-  
-</body>
+        modal.style.display = 'flex' // Show modal
+        modalImage.src = imageSrc // Set image
+        modalDetails.innerHTML = `<strong>${title}</strong><br>${location}` // Set details
+      }
 
+      function closeModal() {
+        const modal = document.getElementById('modal')
+        modal.style.display = 'none' // Hide modal
+      }
+    </script>
+  </body>
 </html>
-
-
